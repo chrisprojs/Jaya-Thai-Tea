@@ -1,0 +1,9 @@
+.menu-detail{
+  margin-top: 10%;
+}
+
+@media (max-width: 768px) {
+  .menu-detail{
+    margin-top: 0%;
+  }
+}

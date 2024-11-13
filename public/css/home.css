@@ -1,0 +1,21 @@
+.banner-img {
+  max-width: 1000px;
+  min-width: 300px;
+}
+
+.banner-img img {
+  width: 100%;
+}
+
+.home-button {
+  position: absolute; /* Allows precise positioning */
+  top: 55%;
+  right: 30%;
+  transform: translate(50%, -50%);
+}
+
+@media (max-width:768px) {
+  .home-button {
+    font-size: 0.7rem;
+  }
+}
